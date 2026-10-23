@@ -17,3 +17,7 @@ Este blog foi criado durante o Git Workshop.
 - Hugo
 
 Este é meu primeiro projeto de blog!
+
+## Sobre mim
+
+Sou estudante de pós-graduação em Engenharia de Software com DevOps e estou aprendendo a usar Git, Markdown e Hugo para criar e versionar este blog.
