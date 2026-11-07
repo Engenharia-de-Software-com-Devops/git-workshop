@@ -34,7 +34,18 @@ O editor web mostra os mesmos marcadores do terminal (`<<<<<<<`, `=======`, `>>>
 * 86bc33b base: titulo
 ```
 
-**Resultado:** PR #1 com status **MERGED** no primeiro repositório. O `-v2` repete o exercício do zero para praticar o fluxo uma segunda vez.
+**1ª tentativa ([lab4-ex08-pr-interface](https://github.com/Engenharia-de-Software-com-Devops/lab4-ex08-pr-interface)):** a resolução manteve só `titulo=Blog do curso`, e o PR foi integrado na `main` (`dff7923`). Os dois pontos contrariam o enunciado, que pede o texto combinado e o PR **não** integrado.
+
+**2ª tentativa ([lab4-ex08-pr-interface-v2](https://github.com/Engenharia-de-Software-com-Devops/lab4-ex08-pr-interface-v2)), que cumpre o enunciado:**
+
+| Critério | Resultado |
+|---|---|
+| Texto na branch do PR | `titulo=Blog da turma e do curso` |
+| Commit de resolução | `def5254`, com dois pais (feat + main) |
+| `main` | continua `titulo=Blog do curso` |
+| PR | sem conflito e **aberto de propósito** |
+
+**Clicar em _Commit merge_ conclui o PR?** Não. Ele só registra a resolução na branch de origem. Integrar na `main` é outro clique (*Merge pull request*), e foi justamente esse clique a mais que tornou a 1ª tentativa diferente do pedido.
 
 ## O que aprendi
 
